@@ -1,0 +1,41 @@
+<!--index.wxml-->  
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+      <block wx:for="{{movies}}" wx:key="item">  
+        <swiper-item>  
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+        </swiper-item>  
+      </block>  
+    </swiper>
+<view class="head-list">
+   <view class="head-item">
+   <image class="head-item-icon" src='/images/intro_icon.png'></image>
+   <text class="head-item-text">商家简介</text>
+   </view>
+   <view class="head-item-line"></view>
+   <view class="head-item">
+   <image class="head-item-icon" src='/images/all_goods.png'></image>
+   <text class="head-item-text">全部商品</text>
+   </view>
+</view>      
+<view class='case'>
+
+  <view class='case-head'>
+    <view class='case-head-line'></view>
+    <text class='case-head-point'>·</text>
+    <text class='case-head-text'>商品推荐</text>
+    <text class='case-head-point'>·</text>
+    <view class='case-head-line'></view>
+  </view>
+
+  <view class='case-list'>
+    <view class='case-item' wx:for="{{caseList}}" wx:key="item" bindtap='itemClick' data-item="{{item}}">
+      <image class='case-item-image' src='{{item.url}}'>
+      </image>
+      <view class='case-item-bottom'>
+        <text class='case-item-text'>{{item.title}}</text>
+        <text class='case-item-text'>￥{{item.price}}</text>
+      </view>
+    </view>
+  </view>
+
+</view>

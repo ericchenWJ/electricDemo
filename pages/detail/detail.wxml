@@ -1,0 +1,15 @@
+<image class="item-image" src="{{url}}"></image>
+<text class="item-price">￥{{price}}</text>
+<text class="item-count">销量：100</text>
+<text class="item-buy">购买数量：</text>
+      <!-- 主容器 -->
+<view class="stepper">
+	<!-- 减号 -->
+	<text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+	<!-- 数值 -->
+	<input type="number" bindchange="bindManual" value="{{num}}" />
+	<!-- 加号 -->
+	<text class="normal" bindtap="bindPlus">+</text>
+</view>
+<text class="item-total-price">总价：{{totalPrice}}</text>
+<button class="item-buy-button" type="primary" plain="true">购买</button>

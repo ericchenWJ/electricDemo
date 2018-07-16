@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+   "backgroundColor": "#ffffff",
+   "color": "#a9b7b7",  
+   "selectedColor": "#d81e06",  
+   "borderStyle":"white",  
+   "list": [{  
+     "selectedIconPath": "images/home_click_icon.png",  
+     "iconPath": "images/home_icon.png",  
+     "pagePath": "pages/home/home",  
+     "text": "首页"  
+   }, {  
+     "selectedIconPath": "images/user_click_icon.png",  
+     "iconPath": "images/user_icon.png",  
+     "pagePath": "pages/user/user",  
+     "text": "我的"  
+   }]  
+ },  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "电缆平台",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  }
+}

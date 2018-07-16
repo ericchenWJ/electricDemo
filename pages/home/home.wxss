@@ -1,0 +1,135 @@
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.head-list{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx;
+}
+.head-item{
+  width: 130rpx;
+  display: flex;
+  flex-direction: column;
+}
+.head-item-icon{
+  width: 65rpx;
+  height: 65rpx;
+  margin-left: 20rpx;
+}
+.head-item-text{
+  font-size: 10pt;
+  color: red;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  margin-top: 10rpx;
+}
+.head-item-line{
+  width: 3rpx;
+  height: 110rpx;
+  background-color: #3791ca;
+  margin-left: 10rpx;
+  margin-right: 30rpx;
+}
+.case {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*案例 头部父布局  */
+
+.case-head {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10;
+}
+
+/*案例 头部线  */
+
+.case-head-line {
+  width: 260rpx;
+  height: 3rpx;
+  background-color: #3791ca;
+}
+
+/*案例 头部点  */
+
+.case-head-point {
+  font-size: 30pt;
+  color: #3791ca;
+}
+
+/*案例 头部文字  */
+
+.case-head-text {
+  font-size: 11pt;
+  color: #3791ca;
+}
+
+/*案例 列表  */
+
+.case-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*案例 列表条目  */
+
+.case-item {
+  width: 350rpx;
+  height: 220rpx;
+  margin-top: 20rpx;
+  background-color: red;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+/*案例 列表条目中图片  */
+
+.case-item-image {
+  width: 350rpx;
+  height: 220rpx;
+}
+
+/*案例 列表条目底部布局  */
+
+.case-item-bottom {
+  width: 100%;
+  height: 70rpx;
+  background-color: #636363;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  opacity: 0.9;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*案例 列表条目中文字  单行超出部分显示省略号*/
+
+.case-item-text {
+  font-size: 9pt;
+  color: white;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
