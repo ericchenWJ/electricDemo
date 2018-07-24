@@ -1,0 +1,42 @@
+.user-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50rpx;
+}
+.user-photo{
+    width: 150rpx;
+    height: 150rpx;
+    margin: 20rpx;
+    border: 0 solid #ffffff;
+    border-radius: 100rpx;
+    background-color: #ffffff;
+}
+.user-nickname{
+    font-size: 14px;
+}
+.user-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    width: 100%;
+    height: 2rpx;
+    position: relative;
+    background-color: #3791ca;
+}
+.user-order{
+    font-size: 14px;
+    margin: 30rpx;
+}
+.order-line{
+    width: 100%;
+    height: 2rpx;
+    background-color: #3791ca;
+    margin-left: 30rpx;
+}

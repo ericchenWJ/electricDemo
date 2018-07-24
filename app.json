@@ -2,6 +2,7 @@
   "pages":[
     "pages/home/home",
     "pages/detail/detail",
+    "pages/intro/intro",
     "pages/user/user",
     "pages/index/index",
     "pages/logs/logs"
@@ -26,8 +27,11 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "电缆平台",
-    "navigationBarTextStyle":"black",
-    "enablePullDownRefresh": true
+    "navigationBarTitleText": "东莞市深泰电线电缆平台",
+    "navigationBarTextStyle":"black"
+  },
+  "networkTimeout": {  
+    "request": 10000,
+    "downloadFile": 10000
   }
 }

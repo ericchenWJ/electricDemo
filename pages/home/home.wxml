@@ -7,7 +7,7 @@
       </block>  
     </swiper>
 <view class="head-list">
-   <view class="head-item">
+   <view class="head-item" bindtap="getIntro">
    <image class="head-item-icon" src='/images/intro_icon.png'></image>
    <text class="head-item-text">商家简介</text>
    </view>

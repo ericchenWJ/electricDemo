@@ -1,4 +1,4 @@
-<image class="item-image" src="{{url}}"></image>
+<image class="item-image" src="{{url}}" mode='aspectFill'></image>
 <text class="item-price">￥{{price}}</text>
 <text class="item-count">销量：100</text>
 <text class="item-buy">购买数量：</text>
@@ -12,4 +12,4 @@
 	<text class="normal" bindtap="bindPlus">+</text>
 </view>
 <text class="item-total-price">总价：{{totalPrice}}</text>
-<button class="item-buy-button" type="primary" plain="true">购买</button>
+<button class="item-buy-button" type="primary" plain="true" bindtap="buy">购买</button>

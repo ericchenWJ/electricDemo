@@ -1,0 +1,13 @@
+<view class="user-content">
+   <image class="user-photo" src='{{photo}}' bindtap="chooseImage"></image>
+   <text class="user-nickname">{{userInfo.nickName}}</text>
+</view>
+<view class="line"></view>
+<view class="user-list">
+   <text class="user-order">我的订单</text>
+   <view class="order-line"></view>
+   <text class="user-order">我的地址</text>
+   <view class="order-line"></view>
+   <text class="user-order">我的资料</text>
+</view>
+<view class="line"></view>

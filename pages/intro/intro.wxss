@@ -1,0 +1,66 @@
+.intro-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50rpx;
+}
+.intro-com-name{
+    font-size: 15pt;
+    color: #000000;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+.intro-com-people{
+    font-size: 12pt;
+    color: #000000;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    margin-top: 30rpx;
+}
+.intro-com-date{
+    font-size: 12pt;
+    color: #000000;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    margin-top: 20rpx;
+}
+.intro-com-type{
+    font-size: 12pt;
+    color: #000000;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    margin-top: 20rpx;
+}
+.line{
+    width: 100%;
+    height: 15rpx;
+    background: #aaa;
+    margin-top: 30rpx;
+    margin-bottom: 20rpx;
+}
+.intro-com-reg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30rpx;
+    padding-left: 30rpx;
+}
+.intro-com-reg-title{
+    font-size: 13pt;
+    color: #000000;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.intro-com-reg-info{
+    font-size: 12pt;
+    color: #000000;
+    margin-top: 20rpx;
+    margin-right: 30rpx;
+}

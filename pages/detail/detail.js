@@ -63,6 +63,33 @@ Page({
             totalPrice: (num * this.data.price).toFixed(1),
 			num: num
 		});
+	},
+	/**购买事件 */
+	buy: function(e){
+		console.log(this.data.title+",购买数量:"+this.data.num+","+",总价:"+this.data.totalPrice)
+		wx.request({
+			url: "https://www.easy-mock.com/mock/5b484a2fd8d71b716154ea7e/electric/buy",
+			header: {  
+                 "Content-Type": "application/x-www-form-urlencoded"  
+            },
+			method: "POST",
+			data: { title: this.data.title,totalPrice:this.data.totalPrice},  
+            complete: function( res ) {  
+			   if(res.data.result == 1){
+				   wx.showToast({
+		  	          title: '购买成功',
+		  	          icon: 'success',
+		  	          duration: 2000
+		           })
+			   }else{
+				   wx.showToast({
+		  	          title: '购买失败',
+		  	          icon: 'loading',
+		  	          duration: 2000
+		           })
+			   }
+           }  
+		})
 	}
 
 })

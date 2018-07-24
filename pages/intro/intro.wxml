@@ -1,0 +1,12 @@
+<view class="intro-title">
+     <text class="intro-com-name">{{comName}}</text>
+     <text class="intro-com-people">法定代表人：{{comPeople}}</text>
+     <text class="intro-com-date">成立日期：{{comDate}}</text>
+     <text class="intro-com-type">企业类型：{{comType}}</text>
+</view>
+<view class="line"></view>
+<view class="intro-com-reg">
+<text class="intro-com-reg-title">登记信息</text>
+<text class="intro-com-reg-info">{{comRegInfo}}</text>
+</view>
+<view class="line"></view>
