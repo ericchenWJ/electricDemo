@@ -1,4 +1,12 @@
-<image class="item-image" src="{{url}}" mode='aspectFill'></image>
+<image class="item-image" src="{{url}}"></image>
+<view class='collect' catchtap='onCollectionTap'>
+    <image wx:if="{{collectionStatus}}" src='/images/like.png'></image>
+    <image wx:else src='/images/unlike.png'></image>
+    <text>{{collectionNum}}</text>
+</view>
+<view class='comment'>
+    <button type="primary" plain="true" bindtap="comment">查看评论</button>
+</view>
 <text class="item-price">￥{{price}}</text>
 <text class="item-count">销量：100</text>
 <text class="item-buy">购买数量：</text>

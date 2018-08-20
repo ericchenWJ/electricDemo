@@ -4,8 +4,11 @@
     "pages/detail/detail",
     "pages/intro/intro",
     "pages/user/user",
+    "pages/order/order",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/comment/comment",
+    "pages/goods/goods"
   ],
   "tabBar": {
    "backgroundColor": "#ffffff",

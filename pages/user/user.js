@@ -54,4 +54,9 @@ Page({
       })
     }
   },
+  getOrder: function(e){
+     wx.navigateTo({
+      url: '../order/order'
+    })
+  }
 })

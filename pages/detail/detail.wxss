@@ -81,3 +81,25 @@
 .stepper .disabled{
 	color: #ccc;
 }
+.collect{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  margin: 30rpx;
+}
+.collect image{
+  height: 50rpx;
+  width: 50rpx;
+}
+.comment{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  margin-left: 350rpx;
+  margin-bottom: 20rpx;
+}
+.comment button{
+   width: 200rpx;
+   height: 80rpx;
+   font-size: 12pt;
+}

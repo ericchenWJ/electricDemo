@@ -1,0 +1,5 @@
+ <view wx:for="{{orderList}}" wx:key="item" bindtap='itemClick' data-item="{{item}}">
+        <text>{{item.title}} </text>
+        <text>￥{{item.totalPrice}} </text>
+        <text>{{item.num}}</text>
+</view>

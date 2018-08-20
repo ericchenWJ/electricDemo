@@ -4,7 +4,7 @@
 </view>
 <view class="line"></view>
 <view class="user-list">
-   <text class="user-order">我的订单</text>
+   <text class="user-order" bindtap="getOrder">我的订单</text>
    <view class="order-line"></view>
    <text class="user-order">我的地址</text>
    <view class="order-line"></view>

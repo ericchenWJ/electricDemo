@@ -111,6 +111,9 @@ Page({
       complete: function () { }//请求完成后执行的函数
     })
   },
+  onShareAppMessage: function(){
+    console.log("onShareAppMessage:分享")
+  },
   itemClick: function(e){
     var $item = e.currentTarget.dataset.item;
     wx.navigateTo({
@@ -123,6 +126,11 @@ Page({
   getIntro: function(e){
     wx.navigateTo({
       url: '../intro/intro'
+    })
+  },
+  getAllGoods: function(e){
+    wx.navigateTo({
+      url: '../goods/goods'
     })
   }
 })  
